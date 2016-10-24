@@ -1,0 +1,118 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	background-color: white;
+	color: #999;
+	font-family: arial;
+}
+
+.centered {
+	text-align: center;
+}
+
+div.main {
+	margin: 0px auto;
+	width: 80%;
+	min-width: 500px;
+	text-align: left;
+}
+
+span.brand {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px #999;
+}
+
+div.main > div.head > div.nav {
+	text-align: right;
+}
+
+a {
+	color: #FC0;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 0.7rem;
+}
+
+a.navlink {
+	margin-left: 30px;
+}
+
+div.main > div.body {
+	margin-top: 50px;
+}
+
+div.main > div.body > p {
+	text-align: justify;
+	line-height: 23px;
+}
+
+div.main > div.body > p.grabber::first-letter {
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-right: 2px;
+	color: #CCC;
+}
+
+
+div.inset {
+	width: 35%;
+	float: right;
+	margin-left: 25px;
+	padding: 0px 25px;
+	border-left: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	box-shadow: 5px 5px 5px #CCC;
+	border-radius: 25px 0px;
+	font-size: 0.9rem;
+}
+
+hr {
+	width: 95%;
+	color: #CCC;
+}
+
+hr.section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+span.major {
+	margin: 70px 0px;
+	display: block;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #CCC;
+	border-top: 1px dotted #CCC;
+	border-bottom: 1px dotted #CCC;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+div.quarterfloater {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}
+
+div.quarterfloater > div.cell {
+	padding: 5px 10px;
+	border-left: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	box-shadow: 5px 5px 5px #CCC;
+	border-radius: 10px 0px;
+	font-size: 0.9rem;
+}
+
+div.foot {
+	margin-top: 100px;
+}
+
+div.foot > a {
+	font-size: 1.0em;
+}
+
