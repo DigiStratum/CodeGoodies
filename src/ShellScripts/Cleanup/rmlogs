@@ -1,0 +1,11 @@
+#!/bin/sh
+
+BASE=/home/sites
+echo "/usr/local/configs/logs/rmlogs - Purging Logs older than 14 days from  $BASE"
+for DIR in `ls -1 $BASE`; do
+	LOGDIR=$BASE/$DIR/logs
+	echo "Looking in $LOGDIR..."
+	#find $LOGDIR -mtime +14 -name "*.log" | xargs echo
+	find $LOGDIR -mtime +14 -name "*.log" | xargs rm -f 
+done
+
